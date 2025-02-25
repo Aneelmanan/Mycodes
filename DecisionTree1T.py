@@ -9,6 +9,7 @@ import numpy as np
 # Load the dataset
 data = pd.read_csv("D:/Education/PhD/ZZU/Research/FRP/On Going Papers/Paper ( 1 Multi Target RCA)/All Tables and graphs/Database1CSV.csv")
 
+#this is git demo
 # Features (X) and Targets (y)
 X = data.drop(['FC'], axis=1)  # Features
 y = data['FC']  # Target (FC)
